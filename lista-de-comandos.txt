@@ -1,0 +1,12 @@
+git init
+git config user.name "Joao Antonio"
+git config user.email "joao.antonio05@outlook.com"
+echo "Joao Antonio Oliveira Guedes 20251ZL00130065" > primeiro-commit.txt
+git add primeiro-commit.txt
+git commit -m "primeiro commit"
+git remote add origin https://github.com/joao0503/curso-git-embarcatech.git
+git branch -M main
+git push -u origin main
+git add lista-de-comandos.txt
+git commit -m "segundo commit"
+git push -u origin main
